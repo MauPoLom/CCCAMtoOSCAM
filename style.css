@@ -1,0 +1,44 @@
+body {
+    background-color: grey;
+    font-family: helvetica
+}
+
+.entry-content {
+    margin-top: 2%;
+}
+
+#copyarea {
+    position: relative;
+}
+
+#copyarea textarea {
+    width: 50%;
+    height: 50%;
+    box-sizing: border-box;
+}
+
+#copyarea button {
+    /*position: absolute;*/
+    top: 0;
+    right: 0;
+    background: #1111ec;
+    color: #FFF;
+    border: 1px;
+    border-radius: 7px;
+    solid transparent;
+    cursor: pointer;
+    -webkit-appearance: button;
+    padding: 10px 20px
+}
+
+#convert {
+    margin-bottom: 2%;
+    background: #1111ec;
+    color: #fff;
+    border: 5px;
+    border-radius: 7px;
+    solid transparent;
+    cursor: pointer;
+    -webkit-appearance: button;
+    padding: 10px 20px
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="description" content="Converting CCC lines to Oscam" />
+    <meta charset="utf-8">
+    <title>Offline CCCAM Converter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="maupolom">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="clipboard.min.js"></script>
+    <script type="text/javascript" src="convert.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Minimal Offline CCCAM converter page. No external links, official libraries used no alterations.</h2>
+        <div class="entry-content" itemprop="text">
+            <textarea id="caminput" name="caminput" cols="50" rows="8" placeholder="Insert your CCcam lines or OScam lines here
+C: testcccam.com 18000 user1 pass1
+C: testcccam2.com 19000 user2 pass2"></textarea>
+            <button id="convert">Convert</button>
+            <div id="copyarea">
+                <textarea id="camoutput" type="text" readonly="true" cols="50" rows="16"></textarea>
+                <button id="copybutton" data-clipboard-target="#camoutput">✂️ Copy</button>
+            </div>
+            <div> Read this (Dutch): <a href="https://www.luxsat.eu/handleidingen/oscam/oscam.html">https://www.luxsat.eu/handleidingen/oscam/oscam.html</a>
+                <script src='https://www.produsat.com/wp-includes/js/clipboard.min3c89.js?ver=2.0.11' id='clipboard-js'></script>
+            </div>
+        </div>
+        <h6>version:1.1: last update 17/07/24</h6>
+    </div>
+</body>
+
+</html>
